@@ -94,7 +94,10 @@ h1{
 .cards h3{
     display: inline;
     border-bottom: 1px solid var(--black);
-    margin-bottom: 10px;
+}
+.cards p {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .adopt-btn{
     display: block;
