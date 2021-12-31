@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Jost', sans-serif;
+}
+:root{
+    --black: #000;
+    --white: #fff;
+    --color-primary: #d1f6ff;
+    --color-secondary: #fece00;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.menu{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.menu i {
+    font-size: 2.3rem;
+}
+.menu .logo img{
+    width: 100%;
+}
+.logo{
+    width: 60px;
+}
+.list{
+    display: none;
+}
+.principal{
+    background: url(assets/background.png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    text-align: center;
+}
+.principal img{
+    width: 70%;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 2.4rem;
+}
+.text-principal p{
+    font-size: 1.4rem;
+}
+.adopt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 50px;
+    text-align: center;
+}
+.adopt-text{
+    margin-bottom: 20px;
+}
+.adopt-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 10px rgb(181, 181, 181);
+}
+.cards img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.cards h3{
+    display: inline;
+    border-bottom: 1px solid var(--black);
+    margin-bottom: 10px;
+}
+.adopt-btn{
+    display: block;
+    background-color: var(--color-secondary);
+    border:0px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.adopt-btn:hover{
+    background-color: rgb(136, 1, 136);
+    color: var(--white);
+}
+.footer{
+    background-color: var(--black);
+    color: #878787;
+    padding: 10px 10px;
+    text-align: center;
+}
